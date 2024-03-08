@@ -118,5 +118,33 @@ These user stories outline key features and functionalities of the "Hume" fitnes
 
 &nbsp;
 &nbsp;
+# Week 9
+
+## Community Code Assignment
+
+  For this assignment I have to choose a repository and contribute to it. Contribution can be writing code, making tutorials, writing or improving documentation or anything that benefits the cause of repository.
+  I will be choosing some of the open source repositories that I find interseting and where I can use my skills to resolve the issues. 
 
 
+## How to contribute to open source
+
+  To get information about how to contribute I read the github article [How to contribute to open source](https://opensource.guide/how-to-contribute/#what-it-means-to-contribute). I read through all the ways that they mentioned and found out that
+  coding is not the only way to contribute. Some other ways can be - 
+
+  - Code Contributions: Fixing bugs, Implemting features and refactoring.
+  - Documentation: Writing documentation, Translating documentation.
+  - Testing : Writing tests for the code (Unit testing)
+  - Review and Feedback : Code reviewing, Issue triaging(Help triage incoming issues, reproduce reported bugs)
+  - Community Engagement : Answering questions, Organizing Events and Mentoring
+  - Design : Creating User interface design, User experience (UX) design
+  - Marketing : Promote the project on social media, blogs or websites or Creating content for project
+
+    Beside all this there are still many other ways to benefit a repository such as financial support, sponsorships etc. For my contribution I will be choosing some open source repositories and will be contributing by writing code to resolve the issues.
+    
+
+
+  
+  
+
+
+  
