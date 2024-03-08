@@ -2,9 +2,17 @@
 
 Hi my name is Yogesh and this is my Journal for App Development Foundation Course. I will be Writing about all my research that I
 will be doing in coming weeks.
+&nbsp;
+
+---------------------------
+---------------------------
+
 
 # Week 8 
+
 # Research a new language
+&nbsp;
+&nbsp;
 
 ## Haskell Programming Language
 
@@ -29,9 +37,29 @@ Several prominent companies and organizations leverage Haskell in their projects
 
 These resources serve as invaluable guides for individuals looking to delve into Haskell programming, providing structured learning paths and practical examples to facilitate understanding.
 
+&nbsp;
+&nbsp;
+&nbsp;
+
+--------------------------
+
+# Choose a language for community code
+
+&nbsp;
+
+The language I choose to work in is Typescript. Typescript is widely used and is a superset of Javascript. It is developed and maintained by Microsoft as an open-source programming language. I have developed some Web applications using this language and found it extremely useful. It makes logic building process very much easy and we are able to code components in much structured and organized way.
+  
+Further it go very well with Frontend frameworks such as React and Angular and offers smooth integration with other languages as well. It offers a wide range of inbuilt functions and libraries that makes development way easier and I am looking forward to explore the advance concepts of this language and excited to make some awesome apps.
+
+&nbsp;
+&nbsp;
+
+--------------------------
+&nbsp;
+&nbsp;
 # User Story
 
-# User Stories for "Hume" by FitTrack, Fitness Tracking App
+## User Stories for "Hume" by FitTrack, Fitness Tracking App
 
 ## Description:
 "Hume" is a fitness tracking application designed to help users monitor their physical activity, set fitness goals, track progress, and analyze health metrics. I have it installed on my phone and can track my activity, health metrics and my usual fitness routine thrpugh it.
@@ -81,5 +109,14 @@ These resources serve as invaluable guides for individuals looking to delve into
 - The app offers tools for planning and scheduling workouts and receiving feedback.
 
 These user stories outline key features and functionalities of the "Hume" fitness tracking app, addressing various aspects of activity tracking, goal setting, health monitoring, and workout analysis.
+
+&nbsp;
+&nbsp;
+
+--------------------------------------------
+--------------------------------------------
+
+&nbsp;
+&nbsp;
 
 
