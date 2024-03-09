@@ -154,8 +154,19 @@ These user stories outline key features and functionalities of the "Hume" fitnes
       
       <img width="511" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/aa4bfc56-42f3-41c9-926c-3cca52b47d96">
 
-      
+   2) Open-tacos -     
+
+      Open-tacos is free and open source rock climbing catalog for all the climber enthusiasts. The main tech stack of project is GraphQL, Typescript, React,  MongoDB  and Node.js. I am pretty familiar with all the tech used here and the repository has tens of issues opened which will be good to explore and reolve. Repository can be found [here](https://github.com/OpenBeta/open-tacos). Below is the completed checklist for this repository -
+
+      ![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/c229b354-fc6c-4d50-aa55-936e62433793)
+
+  3) PeerTube -
   
+   PeerTube is a free, decentralized and federated video platform developed as an alternative to other platforms that centralize our data and attention, such as YouTube, Dailymotion or Vimeo. the tech stack used here is angularjs, IRC client, Typescript and node.js. I have made a app like this with irc client before so I understand the development process, thats the one reason I chose this repository. It can be found [here](https://github.com/Chocobozzz/PeerTube/tree/develop).  Below is the completed checklist - 
+
+   ![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/723e96c3-50af-4222-88fb-2313d660ad17)
+
+    
      
    
 
