@@ -162,13 +162,52 @@ These user stories outline key features and functionalities of the "Hume" fitnes
 
   3) PeerTube -
   
-   PeerTube is a free, decentralized and federated video platform developed as an alternative to other platforms that centralize our data and attention, such as YouTube, Dailymotion or Vimeo. the tech stack used here is angularjs, IRC client, Typescript and node.js. I have made a app like this with irc client before so I understand the development process, thats the one reason I chose this repository. It can be found [here](https://github.com/Chocobozzz/PeerTube/tree/develop).  Below is the completed checklist - 
+     PeerTube is a free, decentralized and federated video platform developed as an alternative to other platforms that centralize our data and attention, such as YouTube, Dailymotion or Vimeo. the tech stack used here is angularjs, IRC client, Typescript and node.js. 
+     I have made a app like this with irc client before so I understand the development process, thats the one reason I chose this repository. It can be found [here](https://github.com/Chocobozzz/PeerTube/tree/develop).  Below is the completed checklist - 
 
-   ![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/723e96c3-50af-4222-88fb-2313d660ad17)
+     ![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/723e96c3-50af-4222-88fb-2313d660ad17)
 
-    
-     
+-------------------------
+
+ ## Identify issues to support
+
+   For this activity I have found an issue from open-tacos project that I will be resolving. I found this problem listed in the issues tab in the project's github repository. Issue is as follows - 
+
+   **Issue title - Content width should be consistent from top to bottom of the page**
+
+   **Issue as reported by user -**
    
+   In the screenshot below, you can see the header is narrower than the rest of the page, and the banner and the map are full width. So there are three distinct widths to the content.
+   At the very least, the header should match the fixed max width of the content.
+   The full-width map can be excused as making full use of the space I suppose. Why not do the same with the pictures and use the full width?
+   Anyway, it's probably best to have a max width and stick to it. It will make the html/css simpler too.
+     
+   <img width="1917" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/bcc9a7be-3740-4d96-a7e9-ca77971fe83a">
+
+   I confirmed this issue as well by going to their website at [openbita.io](https://openbeta.io/area/3b281b88-55d1-5857-8b9e-b6c409af601e/puerto-rico).
+   The header width is not aligning with the content and I have decided to fix that.
+
+   **Labels associated with Issue are -** 
+
+   - good first issue
+   - help wanted
+
+  **Date issue reported** - Feb 13, 2024
+
+  **Link of the issue** - https://github.com/OpenBeta/open-tacos/issues/1096
+
+  **How I will contribute to resolve the issue -** 
+
+  I know what's the problem user is facing and its related to HTML and CSS correction. For this project they are using react instead and I'm pretty familiar with that,
+  so my approach will be to write suitable media queries with react hooks to align the header with the content at each breakpoint. Another approach will be to use tailwind utility
+  classes to resolve the issue as they are using tailwing for styling in the project. Overall, I will be writing some code to fix the issue.
+
+  ------------------------------------------------------------
+  -----------------------------------------------------------
+
+  Week 10
+  
+
 
   
     
