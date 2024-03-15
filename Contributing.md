@@ -6,19 +6,23 @@
 
 ## About the project
 
-[Open-Tacos](https://github.com/OpenBeta/open-tacos/tree/develop) is one of the main works done by the [Open Beta](https://github.com/OpenBeta) organization, where a lot of contributors came together to make a platform for rock climbing enthusiasts. It is an open source project and is in its late development stage; some versions of this project have already been published, and the live website can be found at [https://openbeta.io/] (here). The main tech stack of the project is GraphQL, Typescript, React, MongoDB, and Node.js. I am pretty familiar with all the tech used here, and the repository has tens of issues open, which will be good to explore and resolve. The repository can be found here: https://github.com/OpenBeta/open-tacos.
+[Open-Tacos](https://github.com/OpenBeta/open-tacos/tree/develop) is one of the main works done by the [Open Beta](https://github.com/OpenBeta) organization, where a lot of contributors came together to make a platform for rock climbing enthusiasts. It is an open source project and is in its late development stage; some versions of this project have already been published, and the live website can be found at [here](https://openbeta.io/) . The main tech stack of the project is GraphQL, Typescript, React, MongoDB, and Node.js. I am pretty familiar with all the tech used here, and the repository has tens of issues open, which will be good to explore and resolve. The repository can be found [here](https://github.com/OpenBeta/open-tacos).
 
 -----------------------------------------
 
 ## Fork of the project
 
-I forked the development branch of the project, and it can be found here: https://github.com/YogeshManni/open-tacos.
+I forked the development branch of the project, and it can be found [here](https://github.com/YogeshManni/open-tacos).
 
 ---------------------------------------
 
 ## Links to the external community and project
 
-**Link to project** - [open-tacos](https://github.com/OpenBeta/open-tacos/tree/develop?tab=readme-ov-file)**Link to Discord community** [open-beta discord server] (https://discord.com/invite/ptpnWWNkJx)**Link to grpahql-backend**  [openbeta-graphql] (https://github.com/OpenBeta/openbeta-graphql)
+**Link to project** - [open-tacos](https://github.com/OpenBeta/open-tacos/tree/develop?tab=readme-ov-file)
+
+**Link to Discord community** -  [open-beta discord server](https://discord.com/invite/ptpnWWNkJx)
+
+**Link to grpahql-backend** - [openbeta-graphql](https://github.com/OpenBeta/openbeta-graphql)
 
 -----------------------------------
 
@@ -28,7 +32,7 @@ I forked the development branch of the project, and it can be found here: https:
 
 -----------------------------
 
-**Labels associated with the issue are: 
+## Labels associated with the issue are: 
    - good first
    -  issueHelp wanted
      
