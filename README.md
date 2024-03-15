@@ -207,7 +207,19 @@ These user stories outline key features and functionalities of the "Hume" fitnes
 
   Week 10
   
+ ---------------------
+ 
+## Asses external community contributing guidelines
 
+In project's repository there is [Contributing.md](https://github.com/OpenBeta/open-tacos/blob/develop/CONTRIBUTING.md) and [code_of_conduct.md](https://github.com/OpenBeta/open-tacos/blob/develop/CODE_OF_CONDUCT.md) available where they have explained the guidlines and way to contribute to the [openbeta](https://github.com/openbeta) organization.
+
+The guidlines describes the importance of being respectful and have a friendly nature towards other members. There are explanation of number of ways in which a user can contribute to the projects and proper way to do that. Further the [code of conduct](https://github.com/OpenBeta/open-tacos/blob/develop/CODE_OF_CONDUCT.md) explains the consequences of violating contributing guidlines of the project. There are not hard rules about contributing in this project but they expect good written explanation of the work done and corresponding supporting examples if needed. 
+
+There is Discord chat server available as well which is veery friendly and support every user in their ongoing development and any kind of questions they have.
+
+
+
+ 
 
   
     
