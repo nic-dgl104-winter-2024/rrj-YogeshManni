@@ -221,8 +221,9 @@ There is Discord chat server available as well which is very friendly and suppor
 
 ## Contribute to external community
 
-    For this activity I forked the repository of the [open-tacos](https://github.com/OpenBeta/open-tacos) project. After that I added CONTRIBUTING.md in my research journal project where I will be documenting the contribution done by me in solving this [issue](https://github.com/OpenBeta/open-tacos/issues/1096). After downloading the project to my local machine, I compiled it, there were lot of dependencies such as node modules, graphql and lower node version. So I had to fix that. I downgraded my node version and it then I was able to compile it.
+For this activity I forked the repository of the [open-tacos](https://github.com/OpenBeta/open-tacos) project. After that I added CONTRIBUTING.md in my research journal project where I will be documenting the contribution done by me in solving this [issue](https://github.com/OpenBeta/open-tacos/issues/1096). After downloading the project to my local machine, I compiled it, there were lot of dependencies such as node modules, graphql and requirement of lower node version. So I had to fix that. I downgraded my node version and it then I was able to compile it.
 
+--------------------------------
 
 
 
