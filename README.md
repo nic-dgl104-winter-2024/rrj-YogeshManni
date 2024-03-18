@@ -225,9 +225,28 @@ For this activity I forked the repository of the [open-tacos](https://github.com
 
 --------------------------------
 
+## Compiling open-tacos project
 
+After forking [open-tacos](https://github.com/YogeshManni/open-tacos) repository, I started compiling it. There were lot of errors in start such as node module errors, some dependencies and formatting issues. I read the documentation of project and that was somewhat helpful in fixing some errors, then I installed all the missing modules using following command.
+```
+npm install
+```
+Finally the project was compiled and ran using below command.
 
- 
+```
+npm run dev
+```
+*Below is some images of successfull compilation of project.*
+
+### VS code successfull compilation
+
+<img width="959" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/bbf1c9f2-5cb3-46bc-90a7-fb775967e3e6">
+
+### Website running on localhost:3000 server
+
+<img width="1910" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/346dace2-c819-41bb-9b73-0bfebb5047d5">
+
+------------------------------ 
 
   
     
