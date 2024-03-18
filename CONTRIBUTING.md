@@ -47,3 +47,28 @@ I forked the development branch of the project, and it can be found [here](https
 The issue I will be resolving is related to the frontend of the project, where the width of the header container needs to be fixed so it will align with the content and be flexible enough to match the content on all platforms. I am very familiar with frontend technology and have been working with CSS, HTML, JS, and React for a while now, so I know what approaches can be taken to fix the issue.
 
 ---------------------------------
+
+## Work started on project to fix the issue
+
+### Compiling open-tacos project
+
+After forking [open-tacos](https://github.com/YogeshManni/open-tacos) repository, I started compiling it. There were lot of errors in start such as node module errors, some dependencies and formatting issues. I read the documentation of project and that was somewhat helpful in fixing some errors, then I installed all the missing modules using following command.
+```
+npm install
+```
+Finally the project was compiled and ran using below command.
+
+```
+npm run dev
+```
+*Below is some images of successfull compilation of project.*
+
+### VS code successfull compilation
+
+<img width="959" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/bbf1c9f2-5cb3-46bc-90a7-fb775967e3e6">
+
+### Website running on localhost:3000 server
+
+<img width="1910" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/346dace2-c819-41bb-9b73-0bfebb5047d5">
+
+------------------------------ 
