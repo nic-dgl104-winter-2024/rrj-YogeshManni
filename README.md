@@ -205,7 +205,7 @@ These user stories outline key features and functionalities of the "Hume" fitnes
   ------------------------------------------------------------
   -----------------------------------------------------------
 
-  Week 10
+ # Week 10
   
  ---------------------
  
@@ -248,9 +248,21 @@ npm run dev
 
 ------------------------------ 
 
-  
-    
- 
+# Week 11
+
+-------------------------------
+
+ ## Read through pattern library issues 
+
+   I went through all the issues that were available in the repository and I decided to move along with the implementation of MVC architecture. As I wanted to write code and practice my skills, this issue was best to take over.
+   I commented on the issue #14 to get it assigned to myself. Since no one was assigned to this issue, I got it assigned to myself quickly. 
+   
+   I also saw the pull requests that were opened, although I could have reviewed them  for my work but I wanted to write code by my own and create a small project to implement and explain the MVC principle.
+   
+   Here is the link of that issue - [MVC architectute](https://github.com/nic-dgl104-winter-2024/pattern-library/issues/14)
+     
+-----------------------------------
+
 
 
 
