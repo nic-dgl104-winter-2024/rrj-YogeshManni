@@ -264,8 +264,20 @@ npm run dev
 -----------------------------------
 
 
+ ## Contribute to Pattern-library
 
+   I started working on assigned issue to implement and expalin MVC architecture. So, I created a fork of pattern-libraray repository. My fork is available [here](https://github.com/YogeshManni/pattern-library/tree/main/patterns/MVC). 
+   To demonstrate the MVC principle I decided to code a To-do task list project which will use MERN(Mongodb, Expresss, React and Node.js) stack. 
 
+   Here is how this stack will be used for MVC - 
+
+   - Model - For Model part, Mongodb and Node.js will be used. I will be creating Model for the data that needs to be saved in database.
+   - View  - For View part, React will be used. React components will be created to display all the tasks and perform operations at user-end.
+   - Controller - For Controller part, Node.js and Express will be used, all the incoming requests will be handled in controller and corresponding response will be sent back to the View after interacting with Model layer.
+
+   Following this strategy I will be coding to-do task list app files to demonstarte MVC architecture.
+
+----------------------------------------
   
   
 
