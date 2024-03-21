@@ -117,3 +117,79 @@ I have added an image below from tailwind official documentation to get better u
 
 --------------------------
 
+## Changing Latest photo section
+
+On the website [Main page](https://openbeta.io/) we can see the latest photo section is also not aligning with the content. In the issue the user wants only map to be of full width, rest everything should align with the content to eradicate different widths for frontend simplification.
+
+To correct this issue, I used the same class `xl:max-w-7xl` to align the width with website content in [RecentTag.tsx](https://github.com/YogeshManni/open-tacos/blob/develop/src/app/(default)/components/RecentTags.tsx) component.
+
+```javascript
+ return (
+    <section className='w-full xl:max-w-7xl'>
+      <div className='px-4 2xl:px-0 mx-auto max-w-5xl xl:max-w-7xl'>
+        <h2>Latest Photos</h2>
+      </div>
+</section>
+  )
+```
+In the above code I added `xl:max-w-7xl` in addition to `w-full` class to align photos section with other content.
+
+But after this the result was not the same as I expected, the photos section was moved to left of screen, so I had to center it by adding an additional class.
+
+I added `xl:mx-auto` to center the photos section. What this class does is that it applies sets the left and right margins to auto, resulting in centering the section. So the whole class became - 
+
+```javascript
+return (
+    <section className='w-full xl:max-w-7xl xl:mx-auto'>
+      <div className='px-4 2xl:px-0 mx-auto max-w-5xl xl:max-w-7xl'>
+        <h2>Latest Photos</h2>
+      </div>
+</section>
+  )
+```
+After this change photos section was perfect for desktop view, but when I tested it in Mobile view it was not aligning with content, there was no padding and photos section was getting full width on mobile which added a horizontal scroll to website in mobile view.
+
+To fix this issue, I added `px-4 xl:px-0` classes which means to add `4 rem` padding on small, medium  and large screens and `0 rem` padding on extra large screens. Additionally I had to remove `w-full` class which was giving full width to the photos section that we didn't want. So i replaced it with `max-w-5xl` which means to give it width of `64 rem` till the large screens.
+
+Finally the component class looked like below - 
+
+```javascript
+ return (
+    <section className='max-w-5xl xl:max-w-7xl mx-auto px-4 xl:px-0'> 
+      <div className='px-4 2xl:px-0 mx-auto max-w-5xl xl:max-w-7xl'>
+        <h2>Latest Photos</h2>
+      </div>
+   </section>
+)
+```
+--------------------
+
+## Result of fix
+
+*Before the addition of max-width classes* - The latest photos section is covering the whole area and is not aligned with the content.
+
+*Large screen view*
+
+![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/12081d61-3b8e-4a97-aedb-6bc5e49f666b)
+
+
+*Small screen View*
+
+![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/8ff51284-80a0-4343-b9e0-256d7283f8fc)
+
+
+
+*After the addition of max-width classes* - The latest photos section is perfectly aligned with the content.
+
+
+*Large screen view*
+
+![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/d7cbae0d-14a0-4c2e-9926-7329748d3986)
+
+*Small screen View*
+
+![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/1ca043a6-bff5-455b-a0b9-470a8f89dfbe)
+
+
+  
+
