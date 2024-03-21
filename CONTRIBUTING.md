@@ -72,3 +72,48 @@ npm run dev
 <img width="1910" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/346dace2-c819-41bb-9b73-0bfebb5047d5">
 
 ------------------------------ 
+
+## Working on issue
+
+  After compiling my project, I started working to edit react files to solve the header width issue. As I dived deep into the workflow and folder structure of the application, I came to know that they have designed three headers instead of one. First header component is for Mobile View, second one is for Desktop and larger screens, and third is also for desktop but thats for their promotion and about pages. 
+
+ For this issue, I had to correct mobile header and dekstop header for main content as per the issue. In thi project, developers are using tailwind for styling website which I am already familiar with. The first change I made was to add max-width to 7xl for extra large screen, which will align header to the rest of website content. Below given are the changes that I have made - 
+
+ ```javascript
+ 
+ export default async function Header (): Promise<any> {
+return (
+   <div className='max-w-5xl xl:max-w-7xl mx-auto px-4 xl:px-0'>
+      <DesktopHeader />	      <DesktopHeader />
+      <MobileHeader />	      <MobileHeader />
+    </div>
+  ))
+}
+
+ ```
+
+In above code I added `xl:max-w-7xl` to the class, which means to set width of header to `7xl(80 rem)` for large screens.
+
+
+I have added an image below from tailwind official documentation to get better understanding of different type of widths in utility classes.
+
+![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/7bc9540c-a297-4a83-aa55-2b258bcb565c)
+
+-----------------
+
+## Result of this fix - 
+
+
+*Before adding class* - As you can see in image below header is not at all aligning with the page content.
+
+
+![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/8e476031-3db1-42e4-b4b2-e42f7af4903e)
+
+
+*After applying max-width fix* - After adding max-width for extra large screen, header is perfectly aligning with content as shown in image below.
+
+
+![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/a7dafad5-181b-49fa-bd34-e0034c4d552f)
+
+--------------------------
+
