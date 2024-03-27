@@ -279,7 +279,68 @@ npm run dev
 
 ----------------------------------------
   
+ # Week 12
+
+
+ ## Community Code Project (Part 2) Contributions 
+-------------------------------------
+
+  ## Completion of MVC architecture (Contribution in pattern-library)
+
+  After deciding my project structure, I started working on my code to design to-do tasklist project in MVC architecture. As discussed in Week 11 Journal, I created [Modals](https://github.com/nic-dgl104-winter-2024/pattern-library/tree/main/patterns/MVC/models), [Controllers](https://github.com/nic-dgl104-winter-2024/pattern-library/tree/main/patterns/MVC/controllers) and [Views](https://github.com/nic-dgl104-winter-2024/pattern-library/tree/main/patterns/MVC/views) for my project as per MVC principle. The overall project's folder structure is as given below -
+
+  ```
+    MVC
+    |-- controllers                   # Controllers directory
+    |   |-- authentication.js         # Controller for authentication-related requests
+    |   |-- category.js               # Controller for category-related requests
+    |   |-- server.js                 # Main entry point for backend server
+    |   |-- tasks.js                  # Controller for todo task-related requests
+    |
+    |-- models                        # Models directory
+    │   |-- authenticationModel.js    # Model for authentication operations
+    │   |-- categoryModel.js          # Model for category operations
+    │   |-- tasksModel.js             # Model for todo task operations
+    │
+    │-- views                          # Views directory
+    |   |-- api.js                    # Service for making API requests
+    |   |-- App.js                    # Main component for frontend React application
+    |   |-- Login.js                  # View component for login page
+    |   |-- NewTask.js                # View component for creating a new task
+    |   |-- Register.js               # View component for registration page
+    |   |-- Todo.js                   # View component for main todo task list page
+    |   |-- TodoItem.js               # View component for rendering an individual todo task
+    |   │-- TodoList.js               # Component for rendering the list of todo tasks
+```
   
+  ### Work done to complete this issue - 
+
+  - Added [Controllers](https://github.com/nic-dgl104-winter-2024/pattern-library/tree/main/patterns/MVC/controllers) files (`authentication.js. category.js, server.js and tasks.js`) which serves the purpose of handling requests from client(View) and performing the appropriate operation while interacting with Model and fetching the data from database. After successfull operation, data is sent back to the client.
+    
+  - Added [Models](https://github.com/nic-dgl104-winter-2024/pattern-library/tree/main/patterns/MVC/models) files (`authenticationModel.js, categoryModel.js, tasksModel.js`).  Models define the data structure of todo tasks and interacts with the database. The Model ensures that data is stored, retrieved, and manipulated in a consistent and reliable manner.
+    
+  - Added [Views](https://github.com/nic-dgl104-winter-2024/pattern-library/tree/main/patterns/MVC/views) files (`api.js, App.js, Login.js, NewTask.js, Register.js, Todo.js, TodoList.js`) which creates the View part for user to interact with. User can perform various operation on the frontend(View) and corresponding to each operation requests will be sent to controllers to complete that operation.
+    
+  - Created detailed Readme.md file which explains the MVC architecture workflow using to-do tasklist project. It can be accessed from [here](https://github.com/nic-dgl104-winter-2024/pattern-library/blob/main/patterns/MVC/README.md).
+
+   
+
+  #### Links 
+
+  - Pattern library fork repository - [Yogesh/pattern-library](https://github.com/YogeshManni/pattern-library/tree/main/patterns/MVC)
+  - DGL104 Pattern library repository - [DGL113/pattern-library](https://github.com/nic-dgl104-winter-2024/pattern-library/tree/main/patterns/MVC)
+  - Readme.md explaining MVC workflow in detail - [Readme.md](https://github.com/nic-dgl104-winter-2024/pattern-library/blob/main/patterns/MVC/README.md)
+  
+ ---------------------------------------
+
+ ### Other Contributions to pattern-library - 
+
+  - Reviewed React Native implementation for Singleton pattern and gave suggestion to create Singleton class as a separate module(File) to singleton pattern can be properly utilized in react-native. Pull request is available [here](https://github.com/nic-dgl104-winter-2024/pattern-library/pull/78) 
+    
+
+----------------------------------------
+
+ 
 
 
   
