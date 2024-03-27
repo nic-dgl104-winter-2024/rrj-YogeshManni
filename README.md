@@ -5,6 +5,19 @@ will be doing in coming weeks.
 &nbsp;
 
 ---------------------------
+
+## Index of Reflection Journal
+
+| Week | Title of Work done | Link to that week's section |
+|----------|----------|----------|
+| Week 8  | Research new language and choose language for community code | [Scroll to Week 8](#week-8)  |
+| Week 9  | Community Code Assignment and identify issue to support | [Scroll to Week 9](#week-9) | 
+| Week 10 |              |                             | 
+| Week 11 |              |                             |
+| Week 12 |              |                             |
+
+
+
 ---------------------------
 
 
@@ -118,6 +131,7 @@ These user stories outline key features and functionalities of the "Hume" fitnes
 
 &nbsp;
 &nbsp;
+
 # Week 9
 
 ## Community Code Assignment
