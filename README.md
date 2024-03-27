@@ -12,9 +12,9 @@ will be doing in coming weeks.
 |----------|----------|----------|
 | Week 8  | Research new language and choose language for community code | [Scroll to Week 8](#week-8)  |
 | Week 9  | Community Code Assignment and identify issue to support | [Scroll to Week 9](#week-9) | 
-| Week 10 |              |                             | 
-| Week 11 |              |                             |
-| Week 12 |              |                             |
+| Week 10 | Started Contributing to external community |   [Scroll to Week 10](#week-10) |                          
+| Week 11 | Started Contributing to pattern library issues |   [Scroll to Week 11](#week-11) | 
+| Week 12 | Contributions done in Pattern-library |   [Scroll to Week 12](#week-12) |
 
 
 
