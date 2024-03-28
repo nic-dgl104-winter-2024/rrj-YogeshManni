@@ -309,6 +309,24 @@ _Small screen View_
 )
 
  ```
+
+ ## Before and After applying fix
+
+
+### Before Fix
+
+   Before I solved this issue, the buttons were enabled even the user was logged out and were appearing as shown in the image below. This issue is still not fixed on the official website so we can see the button enabled there as well. From [here](http://localhost:3000/area/2a40e704-cca6-5cd0-8b7d-404654e65186/lynn-woods) we can see the buttons enabled even loged out.
+
+<img width="1028" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/fb006aa5-589c-4b5e-967e-8a3418879e79">
+
+### After Fix
+
+  After adding necessary classes and code in [AreaPageActions](https://github.com/YogeshManni/open-tacos/blob/6a9713c62b2137d7123a8953723ebff6f86e8646/src/app/(default)/components/AreaPageActions.tsx) and  [PhotoUpload](https://github.com/YogeshManni/open-tacos/blob/develop/src/components/media/PhotoUploadButtons.tsx) components, both buttons were disabled when user is logged out. We can see buttons are grayscaled a bit in image below as they are disabled.
+
+<img width="1028" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/bba64a6e-3dc9-4061-969f-aab8b3a7f488">
+
+
+   
   
     
   
