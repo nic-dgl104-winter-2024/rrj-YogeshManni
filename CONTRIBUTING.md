@@ -211,6 +211,8 @@ return (
 
 ## Result of fix
 
+### Before Fix
+
 _Before the addition of max-width classes_ - The latest photos section is covering the whole area and is not aligned with the content.
 
 _Large screen view_
@@ -220,6 +222,10 @@ _Large screen view_
 _Small screen View_
 
 ![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/8ff51284-80a0-4343-b9e0-256d7283f8fc)
+
+<br>
+
+### After Fix
 
 _After the addition of max-width classes_ - The latest photos section is perfectly aligned with the content.
 
@@ -353,6 +359,7 @@ _Small screen View_
 *Open Beta, "Open beta Climbing catalog", openbeta.io, Feb 2024, [Open-tacos Project](https://github.com/OpenBeta/open-tacos)*
 
 <br>
+
 ---------------------
 
  ## Before and After applying fix
@@ -397,6 +404,7 @@ npm install graphql --save
 *GraphQl, "GraphQl Getting started", graphql.org, March 28. 2024, [Graphql prerequisites](https://graphql.org/graphql-js/)*
 
 <br>
+
 ------------------------------
 
 ## Discussion of next steps
