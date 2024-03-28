@@ -342,8 +342,30 @@ _Small screen View_
 
 <img width="1028" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/bba64a6e-3dc9-4061-969f-aab8b3a7f488">
 
+-----------------------
 
-   
+## Reflection on Success
+
+  I was able to successfully solve both the issues that I took. I was very familiar with the framework and workflow of open-tacos project that really helped me solving the issues. There were no such hard roadblocks faced in development process, however while compiling project it failed couple of times, but with the help of error outputs I solved them one by one and compiled the project successfully. The main errors that came during compilation were - 
+  
+  - Npm packages were missing
+  - Needed to downgrade Node version
+  - Graphql packages were missing (However this is not required to run the frontend)
+
+I solved these errors by downgrading my node version and then installing the missing packages with the following command.
+
+```
+npm install
+```
+
+Graphql can be installed by using the below command, but its not necessary to run the project.
+
+```
+npm install graphql --save
+```
+------------------------------
+
+[Scroll to Top](#contribution-to-open-betas-open-taco-project)
   
     
   
