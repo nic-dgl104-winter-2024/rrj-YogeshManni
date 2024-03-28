@@ -222,7 +222,94 @@ _Small screen View_
 
   --------------------------
 
+   ## Work done in solving this issue 
+
+   **Following steps were taken to resolve this issue :**
+
+   ### Step 1
+   
+   To resolve this issue firstly I had to check about user's session that if user is currently logged in or not. For that I used `next-auth` react module which developers were already using in the project to fetch user's session. In [AreaPageActions](https://github.com/YogeshManni/open-tacos/blob/6a9713c62b2137d7123a8953723ebff6f86e8646/src/app/(default)/components/AreaPageActions.tsx) file I imported the `next-auth` module to get user session. It was imported as given below - 
+
+   ```javascript
+      import { signIn, useSession } from 'next-auth/react'
+   ```
+
+  After that I had to include `client` namespace in the component so I can fetch the user session properly without any error. This was imnported as  - 
+
+  ```javascript
+      'use client'
+   ```
+
+  ### Step 2 
+
+  After successfully importing needed modules I had to create `status` variable to fetch the current user's session. For that I used `useSession` hook that is available in `next-auth` module.
+
+  ```javascript
+      const { status } = useSession() 
+  ```
+
+  Use session hook provides us with three status which are - 
+
+  - authenticated
+  - loading
+  - unauthenticated
+
+   I will use this status variable in Step 3 to find out if user is logged in or not.
+
+   ### Step 3
+
+  After status was fetched successfully from `useSession` hook, I used conditional operator in Edit button class to disable it. It was done as as given below - 
+
+ ```javascript
+
+   <Link href={`/editArea/${uuid}`} target='_new' className={`btn btn-solid btn-accent shadow-md ${status === 'unauthenticated' && 'pointer-events-none opacity-50'}`}>
+      <PencilSimple size={20} weight='duotone' /> Edit
+    </Link>
+
+ ```
+
+  **Explanation** - Above you can see, in `className` I used `status` variable to check if the user is logged in or not. So I added `pointer-events-none` and `opacity-50` classes to disable the button
+  if status is `unauthenticated`. By doing so user won't be able to click edit button when not logged in, hence avoiding getting stuck in infinite loop.
+
+
+  ### Step 4
+
+  Same as edit button, there was `Photo` button next to `Edit` button which was causing the same problem so I had to disable that as well. For that I had to pass already fetched `status` variable as props to [UploadPhotoButton](https://github.com/YogeshManni/open-tacos/blob/develop/src/components/media/PhotoUploadButtons.tsx) component as there was a separate component for Upload photo button. So I made the following changes in files - 
+
+ In  [AreaPageActions](https://github.com/YogeshManni/open-tacos/blob/6a9713c62b2137d7123a8953723ebff6f86e8646/src/app/(default)/components/AreaPageActions.tsx) I passed status to `UploadPhotoButton` component -
+
+ ```javascript
+
+   <UploadPhotoButton status= {status}/>
+
+ ```
+ Then in [PhotoUpload](https://github.com/YogeshManni/open-tacos/blob/develop/src/components/media/PhotoUploadButtons.tsx) component I fetched the status variable as incoming prop's parameter.
+
+```javascript
+
+   export const UploadPhotoButton: React.FC<{status:string}> = ({status}) => (
+  }
+
+ ```
+
+### Step 5
+
+  Finally I had to add the same status condition here as well to disable the Photo button. So I added conditional check in `className` to check if user is authenticated or not and added same `pointer-events-none` and ` opacity-50` classes. It was done as follows - 
  
+  ```javascript
+
+  export const UploadPhotoButton: React.FC<{status:string}> = ({status}) => (
+
+  <BaseUploaderWithNext13Context className={`btn ${status === 'unauthenticated' && 'pointer-events-none opacity-50'}`}>
+
+    <Camera size={20} /> <span className='hidden md:inline'>Photo</span>
+
+  </BaseUploaderWithNext13Context>
+
+)
+
+ ```
+  
     
   
 
