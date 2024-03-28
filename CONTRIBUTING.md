@@ -4,7 +4,7 @@
 
 ## Index of Contributing.md
 
-  |Title of Work done | Link to that week's section |
+  |Title of Work done | Link to that section |
  |----------|------------|
  | About Project  | [Scroll to About project](#about-the-project) |
  | Fork of the Project | [Scroll to Fork](#fork-of-the-project) | 
@@ -14,7 +14,9 @@
  | Issue 1 |   [Scroll to issue 1](#issue-1) |
  | Work done for issue 1 | [Scroll to work done for issue 1](#working-on-issue-1)
  | Issue 2 |   [Scroll to issue 2](#issue-2) |
- | Work done for issue 2 | [Scroll to work done for issue 2](#work-done-in-solving-this-issue)
+ | Work done for issue 2 | [Scroll to work done for issue 2](#work-done-in-solving-this-issue) |
+ | Reflection on Success| [Scroll to reflection](#reflection-on-success)|
+ | Discussion of next steps| [Scroll to discussion](#discussion-of-next-steps)|
 
 
 ## Project Name: Open-tacos
@@ -87,6 +89,8 @@ Finally the project was compiled and ran using below command.
 ```
 npm run dev
 ```
+
+<br>
 
 _Below is some images of successful compilation of project._
 
@@ -364,6 +368,15 @@ Graphql can be installed by using the below command, but its not necessary to ru
 npm install graphql --save
 ```
 ------------------------------
+
+## Discussion of next steps
+
+  For next steps, I will probably propose the changes that I have made for solving [issue#2](#issue-2) to the official [Open-tacos](https://github.com/OpenBeta/open-tacos/tree/develop) repository.
+  Also while solving issue#2, I found some more bugs that are not yet listed as issues in the official repository of open-tacos. So I will report them to the contributors there so they can review and check if someone is 
+  working on it or not and hopefully solve them too. I learned a lot from this project and very much interested in working more and be a contributor of [Open-beta](https://github.com/OpenBeta) community.Their tech stack is great and I would like to learn more about Graphql and Next.js.
+
+---------------------------
+
 
 [Scroll to Top](#contribution-to-open-betas-open-taco-project)
   
