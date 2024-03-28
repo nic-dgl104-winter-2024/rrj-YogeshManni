@@ -6,11 +6,11 @@
 
 ## About the project
 
-[Open-Tacos](https://github.com/OpenBeta/open-tacos/tree/develop) is one of the main works done by the [Open Beta](https://github.com/OpenBeta) organization, where a lot of contributors came together to make a platform for rock climbing enthusiasts. It is an open source project and is in its late development stage; some versions of this project have already been published, and the live website can be found at [here](https://openbeta.io/) . The main tech stack of the project is GraphQL, Typescript, React, MongoDB, and Node.js. I am pretty familiar with all the tech used here, and the repository has tens of issues open, which will be good to explore and resolve. The repository can be found [here](https://github.com/OpenBeta/open-tacos).
+[Open-Tacos](https://github.com/OpenBeta/open-tacos/tree/develop) is one of the main works done by the [Open Beta](https://github.com/OpenBeta) organization, where many contributors came together to make a platform for rock climbing enthusiasts. It is an open source project and is in its late development stage; some versions of this project have already been published, and the live website can be found [here](https://openbeta.io/) . The main tech stack of the project is GraphQL, Typescript, React, MongoDB, and Node.js. I am pretty familiar with all the tech used here, and the repository has tens of issues open, which will be good to explore and resolve. The repository can be found [here](https://github.com/OpenBeta/open-tacos).
 
 ---
 
-## Fork of the project
+## Fork of the Project
 
 I forked the development branch of the project, and it can be found [here](https://github.com/YogeshManni/open-tacos).
 
@@ -22,7 +22,7 @@ I forked the development branch of the project, and it can be found [here](https
 
 **Link to Discord community** - [open-beta discord server](https://discord.com/invite/ptpnWWNkJx)
 
-**Link to grpahql-backend** - [openbeta-graphql](https://github.com/OpenBeta/openbeta-graphql)
+**Link to graphql-backend** - [openbeta-graphql](https://github.com/OpenBeta/openbeta-graphql)
 
 ---
 
@@ -71,9 +71,9 @@ Finally the project was compiled and ran using below command.
 npm run dev
 ```
 
-_Below is some images of successfull compilation of project._
+_Below is some images of successful compilation of project._
 
-### VS code successfull compilation
+### VS code successful compilation
 
 <img width="959" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/bbf1c9f2-5cb3-46bc-90a7-fb775967e3e6">
 
@@ -87,7 +87,7 @@ _Below is some images of successfull compilation of project._
 
 After compiling my project, I started working to edit react files to solve the header width issue. As I dived deep into the workflow and folder structure of the application, I came to know that they have designed three headers instead of one. First header component is for Mobile View, second one is for Desktop and larger screens, and third is also for desktop but thats for their promotion and about pages.
 
-For this issue, I had to correct mobile header and dekstop header for main content as per the issue. In the project, developers are using tailwind for styling website which I am already familiar with. The first change I made was to add max-width to 7xl for extra large screen, which will align header to the rest of website content. Below given are the changes that I have made -
+For this issue, I had to correct mobile header and desktop header for main content as per the issue. In the project, developers are using tailwind for styling website which I am already familiar with. The first change I made was to add max-width to 7xl for extra large screen, which will align header to the rest of website content. Below given are the changes that I have made -
 
 ```javascript
 
