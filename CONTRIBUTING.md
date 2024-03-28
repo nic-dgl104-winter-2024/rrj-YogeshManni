@@ -1,12 +1,29 @@
 # Contribution to Open-Beta's Open-Taco Project
 
+---------------
+
+## Index of Contributing.md
+
+  |Title of Work done | Link to that week's section |
+ |----------|------------|
+ | About Project  | [Scroll to About project](#about-the-project) |
+ | Fork of the Project | [Scroll to Fork](#fork-of-the-project) | 
+ | Links to the external community |   [Scroll to Links](#links-to-the-external-community-and-project) |                          
+ | Issues that I will be working on |   [Scroll to issues](#issues-that-i-will-be-working-on) | 
+| Compiling open-tacos project | [Scroll to compilation](#compiling-open-tacos-project) |
+ | Issue 1 |   [Scroll to issue 1](#issue-1) |
+ | Work done for issue 1 | [Scroll to work done for issue 1](#working-on-issue-1)
+ | Issue 2 |   [Scroll to issue 2](#issue-2) |
+ | Work done for issue 2 | [Scroll to work done for issue 2](#work-done-in-solving-this-issue)
+
+
 ## Project Name: Open-tacos
 
 ---
 
 ## About the project
 
-[Open-Tacos](https://github.com/OpenBeta/open-tacos/tree/develop) is one of the main works done by the [Open Beta](https://github.com/OpenBeta) organization, where many contributors came together to make a platform for rock climbing enthusiasts. It is an open source project and is in its late development stage; some versions of this project have already been published, and the live website can be found [here](https://openbeta.io/) . The main tech stack of the project is GraphQL, Typescript, React, MongoDB, and Node.js. I am pretty familiar with all the tech used here, and the repository has tens of issues open, which will be good to explore and resolve. The repository can be found [here](https://github.com/OpenBeta/open-tacos).
+[Open-Tacos](https://github.com/OpenBeta/open-tacos/tree/develop) is one of the main work done by the [Open Beta](https://github.com/OpenBeta) organization, where many contributors came together to make a platform for rock climbing enthusiasts. It is an open source project and is in its late development stage; some versions of this project have already been published, and the live website can be found [here](https://openbeta.io/) . The main tech stack of the project is GraphQL, Typescript, React, MongoDB, and Node.js. I am pretty familiar with all the tech used here, and the repository has tens of issues open, which will be good to explore and resolve. The repository can be found [here](https://github.com/OpenBeta/open-tacos).
 
 ---
 
@@ -83,7 +100,7 @@ _Below is some images of successful compilation of project._
 
 ---
 
-## Working on issue
+## Working on issue 1
 
 After compiling my project, I started working to edit react files to solve the header width issue. As I dived deep into the workflow and folder structure of the application, I came to know that they have designed three headers instead of one. First header component is for Mobile View, second one is for Desktop and larger screens, and third is also for desktop but thats for their promotion and about pages.
 
