@@ -28,6 +28,10 @@ I forked the development branch of the project, and it can be found [here](https
 
 ## Issues that I will be working on: 
 
+--------------------------
+
+### Issue 1
+
 On the Open-Tacos website, the header part is not aligned with the content; the header is narrower than the rest of the content on the page. This results in multiple distinct widths that users and developers want to avoid. I will be fixing the header width for all the platforms so it can align with the main content. The issue reported can be found at [Content width issue](https://github.com/OpenBeta/open-tacos/issues/1096).
 
 ---
@@ -83,7 +87,7 @@ _Below is some images of successfull compilation of project._
 
 After compiling my project, I started working to edit react files to solve the header width issue. As I dived deep into the workflow and folder structure of the application, I came to know that they have designed three headers instead of one. First header component is for Mobile View, second one is for Desktop and larger screens, and third is also for desktop but thats for their promotion and about pages.
 
-For this issue, I had to correct mobile header and dekstop header for main content as per the issue. In thi project, developers are using tailwind for styling website which I am already familiar with. The first change I made was to add max-width to 7xl for extra large screen, which will align header to the rest of website content. Below given are the changes that I have made -
+For this issue, I had to correct mobile header and dekstop header for main content as per the issue. In the project, developers are using tailwind for styling website which I am already familiar with. The first change I made was to add max-width to 7xl for extra large screen, which will align header to the rest of website content. Below given are the changes that I have made -
 
 ```javascript
 
@@ -189,3 +193,38 @@ _Large screen view_
 _Small screen View_
 
 ![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/1ca043a6-bff5-455b-a0b9-470a8f89dfbe)
+
+--------------------------
+
+## Issue 2
+
+--------------------------
+  After solving First issue, I started working on second issue that I was interested in resolving.  The issue is as follows - 
+
+  When a user logout from the website and then if he go to any area or location and try to edit something then the user will stuck in an infinite loop of page reloading (Page keep on loading infinitely).
+  Full issue can be seen [here](https://github.com/OpenBeta/open-tacos/issues/856)
+
+  **Expected behaviour** - The user proposal is to disable the edit button if he's not logged in.
+
+  ------------------------
+
+  ## Labels associated with the issue are :
+
+  - bug
+
+  **Date issue reported** : June 2, 2023 
+
+  -------------------------
+
+  ## Why I decided to work on this issue
+
+  This issue was related to frontend correction with some user authentication conditions. I am quite familiar with react that is used as frontend here and by now I understand the workflow of project which makes it easier for me to resolve this issue.
+
+  --------------------------
+
+ 
+    
+  
+
+  
+  
