@@ -92,6 +92,12 @@ npm run dev
 
 <br>
 
+*Kim T, "How to run Next Js application build", stackoverflow.com, 03 Dec. 2021, [Run NextJs](https://stackoverflow.com/questions/63518597/how-to-run-next-js-application-build-out-directory)*
+
+
+<br>
+<br>
+
 _Below is some images of successful compilation of project._
 
 ### VS code successful compilation
@@ -128,6 +134,10 @@ In above code I added `xl:max-w-7xl` to the class, which means to set width of h
 I have added an image below from tailwind official documentation to get better understanding of different type of widths in utility classes.
 
 ![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/7bc9540c-a297-4a83-aa55-2b258bcb565c)
+
+<br>
+
+*Tailwind Labs, "Tailwind Max-widths", tailwindcss.com, March 2024, [Tailwind Max Widths](https://tailwindcss.com/docs/max-width)*
 
 ---
 
@@ -190,6 +200,12 @@ return (
   </section>
 );
 ```
+
+<br>
+
+*React, "Your first component", react.dev, March 2024, [React components](https://react.dev/learn/your-first-component)*
+
+<br>
 
 ---
 
@@ -330,6 +346,14 @@ _Small screen View_
 )
 
  ```
+<br>
+
+*React, "Your first component", react.dev, March 2024, [React components](https://react.dev/learn/your-first-component)*
+
+*Open Beta, "Open beta Climbing catalog", openbeta.io, Feb 2024, [Open-tacos Project](https://github.com/OpenBeta/open-tacos)*
+
+<br>
+---------------------
 
  ## Before and After applying fix
 
@@ -367,6 +391,12 @@ Graphql can be installed by using the below command, but its not necessary to ru
 ```
 npm install graphql --save
 ```
+
+<br>
+
+*GraphQl, "GraphQl Getting started", graphql.org, March 28. 2024, [Graphql prerequisites](https://graphql.org/graphql-js/)*
+
+<br>
 ------------------------------
 
 ## Discussion of next steps
