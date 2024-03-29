@@ -51,7 +51,7 @@ I forked the development branch of the project, and it can be found [here](https
 
 ### Issue 1
 
-On the Open-Tacos website, the header part is not aligned with the content; the header is narrower than the rest of the content on the page. This results in multiple distinct widths that users and developers want to avoid. I will be fixing the header width for all the platforms so it can align with the main content. The issue reported can be found at [Content width issue](https://github.com/OpenBeta/open-tacos/issues/1096).
+On the Open-Tacos website, the header part is not aligned with the content. the header is narrower than the rest of the content on the page. This results in multiple distinct widths that users and developers want to avoid. I will be fixing the header width for all the platforms so it can align with the main content. The issue reported can be found at [Content width issue](https://github.com/OpenBeta/open-tacos/issues/1096).
 
 ---
 
