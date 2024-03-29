@@ -354,6 +354,30 @@ npm run dev
 
 ----------------------------------------
 
+## Community Code Project (Part 1) Contributions 
+
+  For this part, I solved two issues from [Open-Tacos](https://github.com/OpenBeta/open-tacos/tree/develop) repository. Those issues are as follows - 
+
+   ---------------------------
+   
+  ### Issue #1 Content width should be consistent from top to bottom of the page
+
+  On the Open-Tacos website, the header part was not aligned with the content. The header is narrower than the rest of the content on the page. This results in multiple distinct widths that users and developers want to avoid. I will be fixing the header width for all the platforms so it can align with the main content. The issue reported can be found at [Content width issue](https://github.com/OpenBeta/open-tacos/issues/1096).
+
+  I solved this issue by Writing the code for React components and adding tailwind classes in it. I aligned the content width with other sections that were either narrower then it or broader then it. Only the map section is of full width as requested by user. Detailed summary and explanation of this issue can be found [here](CONTRIBUTING.md#issue-1) in my [CONTRIBUTING.md](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/blob/main/CONTRIBUTING.md).
+
+  ----------------------------
+  
+   ### Issue #2 Infinite redirect loop when clicking edit and not logging in
+
+   The issue here was that when a user logout from the website and then if he go to any area or location and try to edit something then the user will stuck in an infinite loop of page reloading (Page keep on loading infinitely). Full issue can be seen [here](https://github.com/OpenBeta/open-tacos/issues/856)
+
+**Expected behaviour** - The user proposal is to disable the edit button if he's not logged in.
+
+  To solve this issue I fetched user's Session using `useSession` hook from `next-auth` module of React. Then after I got user status i.e if a user is logged in or not, I used conditional operator to change classes of the buttons to disabled it when user is logged out, so the button cannot be clicked and infinite loop situation can be avoided. Detailed summary and explanation of this issue can be found [here](CONTRIBUTING.md#issue-2) in my [CONTRIBUTING.md](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/blob/main/CONTRIBUTING.md). 
+
+----------------------------------------
+
 [Scroll to Top](#research-and-reflection-journal)
  
 
