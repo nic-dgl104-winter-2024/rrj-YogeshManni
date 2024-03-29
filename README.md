@@ -350,7 +350,15 @@ npm run dev
  ### Other Contributions to pattern-library - 
 
   - Reviewed React Native implementation for Singleton pattern and gave suggestion to create Singleton class as a separate module(File) to singleton pattern can be properly utilized in react-native. Pull request is available [here](https://github.com/nic-dgl104-winter-2024/pattern-library/pull/78) 
-    
+
+
+  ## Self Reflection and Learnings - 
+
+   I learned plenty of new things while implementing MVC architecture. ALthough I was familiar with it, but for this project I took help from React and Node.js Official documentation for some syntax and workflow. I read those documentation in detail and came to know about some good and optimized techniques that can be used to built an Web-app in much more better way. One of the main learning I got while going through Node.js documentation was *`New ways to perform multithreading in Node.js`* which is very useful especially in MVC architecture. Other then that I refreshed my knowledge about how all three layers (`Models, Views and Controllers`) work together to make a robust Application.
+
+  For MVC architecture implementation I did clear separation of  models, views, and controllers, facilitating maintainability and scalability and easy understanding. However, to enhance the application 
+  further, implementing robust data validation and error handling mechanisms within controllers and optimizing view components for better user experience could be beneficial.
+  
 
 ----------------------------------------
 
@@ -375,6 +383,8 @@ npm run dev
 **Expected behaviour** - The user proposal is to disable the edit button if he's not logged in.
 
   To solve this issue I fetched user's Session using `useSession` hook from `next-auth` module of React. Then after I got user status i.e if a user is logged in or not, I used conditional operator to change classes of the buttons to disabled it when user is logged out, so the button cannot be clicked and infinite loop situation can be avoided. Detailed summary and explanation of this issue can be found [here](CONTRIBUTING.md#issue-2) in my [CONTRIBUTING.md](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/blob/main/CONTRIBUTING.md). 
+
+  **Please read** [CONTRIBUTING.md](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/blob/main/CONTRIBUTING.md) **for detailed information about work done for Part 1** 
 
 ----------------------------------------
 
