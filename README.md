@@ -29,6 +29,7 @@ will be doing in coming weeks.
 |          | Other Contributions to pattern-library | [Scroll to section](#other-contributions-to-pattern-library) |
 |          | Self Reflection and Learnings | [Scroll to section](#self-reflection-and-learnings) |
 |          |Contributions done in open source community (Part 1)|   [Scroll to part 1 contribution](#community-code-project-part-1-contributions) |
+|Bibliography| Some other references used from week 8 to week 14 | [Scroll to Bibliography](#bibliography)| 
 
 
 ---------------------------
