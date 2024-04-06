@@ -390,7 +390,7 @@ npm run dev
 
    
 
-  #### Links 
+  ### Links 
 
   - Pattern library fork repository - [Yogesh/pattern-library](https://github.com/YogeshManni/pattern-library/tree/main/patterns/MVC)
   - DGL104 Pattern library repository - [DGL113/pattern-library](https://github.com/nic-dgl104-winter-2024/pattern-library/tree/main/patterns/MVC)
@@ -398,12 +398,12 @@ npm run dev
   
  ---------------------------------------
 
- ### Other Contributions to pattern-library - 
+ ## Other Contributions to pattern-library 
 
   - Reviewed React Native implementation for Singleton pattern and gave suggestion to create Singleton class as a separate module(File) to singleton pattern can be properly utilized in react-native. Pull request is available [here](https://github.com/nic-dgl104-winter-2024/pattern-library/pull/78) 
 
 
-  ## Self Reflection and Learnings - 
+  ## Self Reflection and Learnings
 
    I learned plenty of new things while implementing MVC architecture. ALthough I was familiar with it, but for this project I took help from React and Node.js Official documentation for some syntax and workflow. I read those documentation in detail and came to know about some good and optimized techniques that can be used to built an Web-app in much more better way. One of the main learning I got while going through Node.js documentation was *`New ways to perform multithreading in Node.js`* which is very useful especially in MVC architecture. Other then that I refreshed my knowledge about how all three layers (`Models, Views and Controllers`) work together to make a robust Application.
 
