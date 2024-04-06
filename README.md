@@ -50,6 +50,11 @@ Several prominent companies and organizations leverage Haskell in their projects
 
 These resources serve as invaluable guides for individuals looking to delve into Haskell programming, providing structured learning paths and practical examples to facilitate understanding.
 
+
+<br>
+
+*Haskell Community, "Learn You a Haskell for Great Good", learnyouahaskell.com, 05 Mar. 2024, [Learn haskell](https://learnyouahaskell.com/chapters)*
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -123,6 +128,12 @@ Further it go very well with Frontend frameworks such as React and Angular and o
 
 These user stories outline key features and functionalities of the "Hume" fitness tracking app, addressing various aspects of activity tracking, goal setting, health monitoring, and workout analysis.
 
+<br>
+
+*Hume Health Corp, "Hume by FitTrack", play.google.com/hume, 06 Apr. 2024, [Hume by google play](https://play.google.com/store/apps/details?id=com.elink.fittrackhealth.pro&hl=en)*
+
+*FitTrack Inc, "Health Activity, BMI Tracker", apps.apple.com/hume, 06 Apr. 2024, [Hume by Fit Track](https://apps.apple.com/ca/app/hume-by-fittrack/id1477782599)*
+
 &nbsp;
 &nbsp;
 
@@ -155,6 +166,10 @@ These user stories outline key features and functionalities of the "Hume" fitnes
   - **Marketing** : Promote the project on social media, blogs or websites or Creating content for project
 
     Beside all this there are still many other ways to benefit a repository such as financial support, sponsorships etc. For my contribution I will be choosing some open source repositories and will be contributing by writing code to resolve the issues.
+
+    <br>
+
+    *Github Community, "How to Contribute to Open Source", opensource.guide, Feb. 2024, [Contribute to Open Source](https://opensource.guide/how-to-contribute/#what-it-means-to-contribute)*
     
 ---------------------------
  ## Repositories to contribute to
@@ -168,18 +183,36 @@ These user stories outline key features and functionalities of the "Hume" fitnes
       
       <img width="511" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/aa4bfc56-42f3-41c9-926c-3cca52b47d96">
 
-   2) Open-tacos -     
+      <br>
+
+      *laurent22, "Joplin Documentation", github.com/joplin, 06 Apr. 2024, [Joplin Help and Documentation](https://github.com/laurent22/joplin/tree/dev)*
+
+      <br>
+
+   3) Open-tacos -     
 
       Open-tacos is free and open source rock climbing catalog for all the climber enthusiasts. The main tech stack of project is GraphQL, Typescript, React,  MongoDB  and Node.js. I am pretty familiar with all the tech used here and the repository has tens of issues opened which will be good to explore and reolve. Repository can be found [here](https://github.com/OpenBeta/open-tacos). Below is the completed checklist for this repository -
 
       ![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/c229b354-fc6c-4d50-aa55-936e62433793)
 
-  3) PeerTube -
+      <br>
+
+      *OpenBeta, "Open-tacos documentation", github.com/openBeta, 21 Mar. 2024, [Open Beta Climbing Catalog](https://github.com/OpenBeta/open-tacos)*
+
+      <br>
+
+  5) PeerTube -
   
      PeerTube is a free, decentralized and federated video platform developed as an alternative to other platforms that centralize our data and attention, such as YouTube, Dailymotion or Vimeo. the tech stack used here is angularjs, IRC client, Typescript and node.js. 
      I have made a app like this with irc client before so I understand the development process, thats the one reason I chose this repository. It can be found [here](https://github.com/Chocobozzz/PeerTube/tree/develop).  Below is the completed checklist - 
 
      ![image](https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/723e96c3-50af-4222-88fb-2313d660ad17)
+
+     <br>
+
+      *Chocobozzz, "PeerTube documentation", github.com/peertube, 04 Mar. 2024, [Peer Tube calling App](https://github.com/Chocobozzz/PeerTube/tree/develop)*
+
+      <br>
 
 -------------------------
 
@@ -260,6 +293,11 @@ npm run dev
 
 <img width="1910" alt="image" src="https://github.com/nic-dgl104-winter-2024/rrj-YogeshManni/assets/29475936/346dace2-c819-41bb-9b73-0bfebb5047d5">
 
+<br>
+
+*Mohammed Ibrahim, "Node.js: Step-by-Step", medium.com, 05 Nov. 2023, [Node.js Guide](https://medium.com/@ibrahimhz/creating-your-first-backend-with-node-js-step-by-step-guide-892769af4cb0)*
+
+<br>
 ------------------------------ 
 
 # Week 11
