@@ -439,6 +439,25 @@ npm run dev
 
 ----------------------------------------
 
+### Bibliography
+
+Mohammed Ibrahim, "Node.js: Step-by-Step", medium.com, 05 Nov. 2023, https://medium.com/@ibrahimhz/creating-your-first-backend-with-node-js-step-by-step-guide-892769af4cb0
+
+Open AI, "Used Chat GPT for code and syntax purpose", chat.openai.com, 06 Apr. 2024, https://chat.openai.com/
+
+Sheldon, Robert. “What Is Model-View-Controller (MVC)?: Definition from TechTarget.” WhatIs, TechTarget, 12 Sept. 2023, www.techtarget.com/whatis/definition/model-view-controller-MVC#:~:text=In%20programming%2C%20model%2Dview%2D,a%20specific%20set%20of%20tasks
+
+Haskell Community, "Learn You a Haskell for Great Good", learnyouahaskell.com, 05 Mar. 2024, https://learnyouahaskell.com/chapters
+
+Visual Studio Community, "TypeScript Programming language with VS Code", code.visualstudio.com,  04 Apr. 2024, https://code.visualstudio.com/docs/languages/typescript
+
+React community, "Your First Component", react.dev, Feb. 2024, https://react.dev/learn/your-first-component
+
+<br>
+
+<br>
+      
+
 [Scroll to Top](#research-and-reflection-journal)
  
 
