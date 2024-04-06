@@ -11,10 +11,23 @@ will be doing in coming weeks.
 | Week | Title of Work done | Link to that week's section |
 |----------|----------|----------|
 | Week 8  | Research new language and choose language for community code | [Scroll to Week 8](#week-8)  |
+|         | Research New language | [Scroll to Research New language](#research-a-new-language)   |
+|         |Choose a language for community code| [Scroll to community code](#choose-a-language-for-community-code) |
+|          | User Story    |   [Scroll to User stories](#user-story) |
 | Week 9  | Community Code Assignment and identify issue to support | [Scroll to Week 9](#week-9) | 
-| Week 10 | Started Contributing to external community |   [Scroll to Week 10](#week-10) |                          
+|          | How to contribute to open source| [Scroll to section](#how-to-contribute-to-open-source) |
+|          | Repositories to contribute to| [Scroll to section](#repositories-to-contribute-to) |
+|          |Identify issues to support| [Scroll to section](#identify-issues-to-support) |
+| Week 10 | Started Contributing to external community |   [Scroll to Week 10](#week-10) |  
+|         | Contribute to external community |   [Scroll to section](#contribute-to-external-community) |  
+|         | Compiling open-tacos project |   [Scroll to section](#compiling-open-tacos-project) |  
 | Week 11 | Started Contributing to pattern library issues |   [Scroll to Week 11](#week-11) | 
+|          | Read through pattern library issues |   [Scroll to section](#read-through-pattern-library-issues) |
+|          | Contribute to Pattern-library |   [Scroll to section](#contribute-to-pattern-library) |
 | Week 12 | Contributions done in Pattern-library (Part 2) |   [Scroll to part 2 contribution](#week-12) |
+|          | Completion of MVC architecture | [Scroll to section](#community-code-project-part-2-contributions) |
+|          | Other Contributions to pattern-library | [Scroll to section](#other-contributions-to-pattern-library) |
+|          | Self Reflection and Learnings | [Scroll to section](#self-reflection-and-learnings) |
 |          |Contributions done in open source community (Part 1)|   [Scroll to part 1 contribution](#community-code-project-part-1-contributions) |
 
 
